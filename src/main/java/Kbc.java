@@ -3,10 +3,6 @@ import java.util.Scanner;
 
 public class Kbc {
     Questions qobj = new Questions();
-    int totalMoneyWon = 0;
-    boolean hasLifeline = true;
-    int level = 1;
-    boolean hasWon = true;
 
     public void kbc() {
         Scanner scanner = new Scanner(System.in);
